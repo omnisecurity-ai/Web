@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Omni Security - Comprehensive Digital Protection</title>
+    <title>Omni Security - Revolutionizing Cybersecurity</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <style>
         :root {
@@ -29,13 +29,10 @@
             border-radius: 1rem;
             box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
             padding: 2rem;
-            max-width: 42rem;
+            max-width: 48rem;
             width: 90%;
             margin: 2rem;
-            transition: transform 0.3s ease-in-out;
-        }
-        .container:hover {
-            transform: translateY(-5px);
+            text-align: center;
         }
         .logo {
             background-color: var(--primary-color);
@@ -48,47 +45,64 @@
             align-items: center;
             justify-content: center;
             margin: 0 auto 1.5rem;
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
         }
         h1 {
             font-size: 2.5rem;
-            text-align: center;
             color: var(--secondary-color);
             margin-bottom: 1rem;
         }
         .tagline {
             font-size: 1.25rem;
-            text-align: center;
             color: var(--primary-color);
             font-weight: 600;
             margin-bottom: 1.5rem;
         }
-        .content {
-            margin-bottom: 1.5rem;
+        .content-section {
+            margin-bottom: 2rem;
+            text-align: left;
+        }
+        .content-section h2 {
+            font-size: 1.75rem;
+            color: var(--secondary-color);
+            margin-bottom: 1rem;
+        }
+        .content-section p, ul {
+            margin-bottom: 1rem;
+            line-height: 1.6;
         }
         ul {
             list-style-type: disc;
             padding-left: 2rem;
-            margin-bottom: 1rem;
         }
         li {
             margin-bottom: 0.5rem;
         }
+        .cta {
+            background-color: var(--primary-color);
+            color: white;
+            text-transform: uppercase;
+            font-weight: 600;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 1.5rem;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .cta:hover {
+            background-color: var(--secondary-color);
+        }
         .footer {
-            text-align: center;
             font-size: 0.875rem;
             color: var(--text-light);
             margin-top: 2rem;
         }
         @media (max-width: 640px) {
-            .container {
-                padding: 1.5rem;
-            }
             h1 {
                 font-size: 2rem;
             }
-            .tagline {
-                font-size: 1rem;
+            .content-section h2 {
+                font-size: 1.5rem;
             }
         }
     </style>
@@ -97,24 +111,41 @@
     <div class="container">
         <div class="logo">🛡️</div>
         <h1>Omni Security</h1>
-        <p class="tagline">The future of comprehensive digital protection is almost here.</p>
-        <div class="content">
+        <p class="tagline">Transform Your Cybersecurity Strategy with Omni Security</p>
+        
+        <div class="content-section">
+            <h2>Why Omni Security?</h2>
             <p>
-                Omni Security is revolutionizing the cybersecurity landscape with our cutting-edge AI-powered platform. We offer:
+                Are you prepared to handle the next cybersecurity threat? With Omni Security, you gain a revolutionary solution that provides:
             </p>
             <ul>
-                <li>Real-time threat detection and prevention</li>
-                <li>Secure cloud storage with end-to-end encryption</li>
-                <li>Advanced encryption for all your digital communications</li>
-                <li>Intelligent firewall and network protection</li>
-                <li>24/7 monitoring and instant alert</li>
+                <li><strong>Complete Visibility:</strong> See your entire architecture, security posture, and vulnerabilities in real time.</li>
+                <li><strong>Intelligent Protection:</strong> Advanced threat detection and real-time risk analysis to keep you secure.</li>
+                <li><strong>Self-Healing Capabilities:</strong> Automated fixes to vulnerabilities, so your systems stay safe effortlessly.</li>
             </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Key Features</h2>
+            <ul>
+                <li><strong>Automated Architecture Mapping:</strong> Visualize your entire infrastructure at a glance.</li>
+                <li><strong>Threat Detection & Analysis:</strong> Identify risks and get actionable insights instantly.</li>
+                <li><strong>Self-Healing:</strong> Automatically fix vulnerabilities and misconfigurations in real time.</li>
+                <li><strong>Automated Pen Testing:</strong> Ensure your systems are always penetration-test ready.</li>
+            </ul>
+        </div>
+
+        <div class="content-section">
+            <h2>Your Benefits</h2>
             <p>
-                Whether you're an individual looking to protect your personal data or a business safeguarding sensitive information, Omni Security has you covered.
+                With Omni Security, you reduce response times, improve efficiency, and maintain an unbreachable security posture—all while saving valuable resources. Protect your business, your customers, and your reputation with ease.
             </p>
         </div>
+
+        <a href="#contact" class="cta">Get Started Now</a>
+
         <div class="footer">
-            <p>Stay tuned for our launch. We're working hard to bring you the most comprehensive security solution on the market.</p>
+            <p>Join the revolution in cybersecurity. Contact us to learn more!</p>
         </div>
     </div>
 </body>
